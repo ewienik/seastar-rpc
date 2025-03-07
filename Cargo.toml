@@ -1,0 +1,12 @@
+# Copyright 2025-present ScyllaDB
+# SPDX-License-Identifier: Apache-2.0
+
+[package]
+name = "seastar-rpc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "*"
+bytes = "*"
+derive_more = { version = "*", features = ["full"] }
